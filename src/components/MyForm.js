@@ -103,7 +103,6 @@ class MyForm extends Component {
             <input
               type="file"
               name="foto"
-              placeholder="Foto"
               onChange={this.handleChange}
               value={this.state.form.foto}
             />
@@ -114,7 +113,7 @@ class MyForm extends Component {
             <input
               type="text"
               name="nama"
-              placeholder="Nama"
+              placeholder="Masukan Nama"
               onChange={this.handleChange}
               value={this.state.form.nama}
             />
@@ -125,7 +124,7 @@ class MyForm extends Component {
             <input
               type="text"
               name="nik"
-              placeholder="nik"
+              placeholder="Masukan NIK"
               onChange={this.handleChange}
               value={this.state.form.nik}
             />
@@ -135,7 +134,7 @@ class MyForm extends Component {
             <label>NISN</label>
             <input
               name="nisn"
-              placeholder="nisn"
+              placeholder="Masukan NISN"
               onChange={this.handleChange}
               value={this.state.form.nisn}
             />
@@ -145,7 +144,7 @@ class MyForm extends Component {
             <label>Alamat</label>
             <input
               name="alamat"
-              placeholder="alamat"
+              placeholder="Masukan Alamat"
               onChange={this.handleChange}
               value={this.state.form.alamat}
             />
