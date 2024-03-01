@@ -34,7 +34,7 @@ class PostList extends Component {
               return (
                 <Post
                   key={post.id}
-                  customer={post}
+                  post={post}
                   onDelete={this.onDelete}
                   onEdit={this.onEdit}
                 />

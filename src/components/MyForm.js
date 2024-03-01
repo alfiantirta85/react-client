@@ -98,7 +98,18 @@ class MyForm extends Component {
     return (
       <form className="ui form">
         <div className="fields">
-          <div className="two wide field">
+        <div className="two wide field">
+            <label>Foto</label>
+            <input
+              type="file"
+              name="foto"
+              placeholder="Foto"
+              onChange={this.handleChange}
+              value={this.state.form.foto}
+            />
+          </div>
+
+          <div className="three wide field">
             <label>Nama</label>
             <input
               type="text"
@@ -109,7 +120,7 @@ class MyForm extends Component {
             />
           </div>
 
-          <div className="four wide field">
+          <div className="three wide field">
             <label>NIK</label>
             <input
               type="text"
